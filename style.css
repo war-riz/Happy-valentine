@@ -46,12 +46,12 @@ body {
 }
 
 .paragraph-section {
-  box-shadow: 8px 8px 50px #df748f;
+  box-shadow: 8px 8px 50px #e6416a;
   padding: 40px;
   font-size: medium;
   border-radius: 20px;
-  text-align: justify;
-  margin: 30px;
+  text-align: center;
+  margin: 20px;
 }
 
 .div-main h3 {
@@ -69,19 +69,19 @@ body {
 
 #val-gift img {
   margin: 0px auto;
-  border-radius: 20px;
-  margin: 30px;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 #btn {
-  margin: 10px;
+  margin: 5px;
 }
 
 #btn button {
   padding: 10px;
   border-radius: 10px;
   width: 80px;
-  margin-left: 20px;
+  margin-left: 5px;
   background-color: #ffb3c6;
   border: 1px solid #f48ca6;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 footer {
-  margin: 30px;
+  margin: 5px;
   padding: 30px;
   color: aliceblue;
 }
