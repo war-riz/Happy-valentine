@@ -16,6 +16,7 @@ body {
 .nav {
   background-color: #f97d9c;
   padding: 15px;
+  margin: 30px;
 }
 
 .unordered {
@@ -26,18 +27,18 @@ body {
 
 .unordered a {
   text-decoration: none;
-  margin-left: 50px;
+  margin-left: 20px;
   color: aliceblue;
 }
 
 #whole-body {
   margin: 0px auto;
-  width: 80%;
+  width: 100%;
   color: #fadbe3;
 }
 
 .paragraph-header {
-  margin: 40px 0px;
+  margin: 40px 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -45,11 +46,12 @@ body {
 }
 
 .paragraph-section {
-  box-shadow: 6px 5px 30px #df748f;
+  box-shadow: 8px 8px 50px #df748f;
   padding: 40px;
   font-size: medium;
   border-radius: 20px;
   text-align: justify;
+  margin: 30px;
 }
 
 .div-main h3 {
@@ -66,8 +68,9 @@ body {
 }
 
 #val-gift img {
-  margin: 10px auto;
+  margin: 0px auto;
   border-radius: 20px;
+  margin: 30px;
 }
 
 #btn {
@@ -88,6 +91,7 @@ body {
 }
 
 footer {
+  margin: 30px;
   padding: 30px;
   color: aliceblue;
 }
