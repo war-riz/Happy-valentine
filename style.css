@@ -1,97 +1,93 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
 }
 
 body {
-    background: linear-gradient(#fb6f92 40%, #ffb3c6 70%);
-    margin-top: 70px;
+  background: linear-gradient(#fb6f92 40%, #ffb3c6 70%);
+  margin-top: 70px;
 }
 
 .nav {
-    background-color: #f97d9c;
-    padding: 15px;
+  background-color: #f97d9c;
+  padding: 15px;
 }
 
 .unordered {
-    display: flex;
-    list-style: none;
-    justify-content: start;
+  display: flex;
+  list-style: none;
+  justify-content: start;
 }
 
 .unordered a {
-    text-decoration: none;
-    margin-left: 50px;
-    color: aliceblue;
+  text-decoration: none;
+  margin-left: 50px;
+  color: aliceblue;
 }
 
 #whole-body {
-    margin: 0px auto;
-    width: 80%;
-    color: #fadbe3;
+  margin: 0px auto;
+  width: 80%;
+  color: #fadbe3;
 }
 
 .paragraph-header {
-    margin: 40px 0px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: medium;
-
+  margin: 40px 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: medium;
 }
 
 .paragraph-section {
-    box-shadow: 6px 5px 30px #df748f;
-    padding: 40px;
-    font-size: medium;
-    border-radius: 20px;
-    text-align: justify;
+  box-shadow: 6px 5px 30px #df748f;
+  padding: 40px;
+  font-size: medium;
+  border-radius: 20px;
+  text-align: justify;
 }
 
 .div-main h3 {
-    font-family: "Sacramento", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: xx-large;
-    color: aliceblue;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  color: aliceblue;
 }
-  
 
 .div-main {
-    margin-top: 40px;
-    width: 100%;
+  margin-top: 40px;
+  width: 100%;
 }
 
 #val-gift img {
-    margin: 10px auto;
-    border-radius: 20px;
+  margin: 10px auto;
+  border-radius: 20px;
 }
 
 #btn {
-    margin: 15px;
+  margin: 15px;
 }
 
 #btn button {
-    padding: 10px;
-    border-radius: 10px;
-    width: 90px;
-    margin-left: 50px;
-    background-color: #ffb3c6;
-    border: 1px solid #f48ca6;
+  padding: 10px;
+  border-radius: 10px;
+  width: 90px;
+  margin-left: 50px;
+  background-color: #ffb3c6;
+  border: 1px solid #f48ca6;
 }
 
 #btn button:hover {
-    background-color: #f97d9c;
+  background-color: #f97d9c;
 }
 
 footer {
-    padding: 30px;
-    color: aliceblue;
+  padding: 30px;
+  color: aliceblue;
 }
-  
-  

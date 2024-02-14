@@ -1,74 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Don't Go There</title>
-</head>
-<style>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      color: #444444;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    color: #444444;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+    body {
+      background-color: blanchedalmond;
+    }
 
-body {
-    background-color: blanchedalmond;
-}
+    .nav {
+      background-color: rgb(240, 204, 149);
+      padding: 15px;
+      margin-bottom: 20px;
+    }
 
-.nav {
-    background-color: rgb(240, 204, 149);
-    padding: 15px;
-    margin-bottom: 20px;
-}
+    .unordered {
+      display: flex;
+      list-style: none;
+      justify-content: start;
+    }
 
-.unordered {
-    display: flex;
-    list-style: none;
-    justify-content: start;
-}
+    .unordered a {
+      text-decoration: none;
+      margin-left: 50px;
+      color: #444444;
+      font-weight: bold;
+    }
 
-.unordered a {
-    text-decoration: none;
-    margin-left: 50px;
-    color: #444444;
-    font-weight: bold;
-}
+    div {
+      width: 100%;
+      padding: 100px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-div {
-    width: 100%;
-    padding: 100px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+    h3 {
+      font-size: large;
+      margin-bottom: 20px;
+    }
 
-h3{
-    font-size: large;
-    margin-bottom: 20px;
-}
-
-#video {
-    margin-top: 20px;
-    border-radius: 15px;
-}
-</style>
-<body>
+    #video {
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+  </style>
+  <body>
     <div>
-        <nav class="nav">
-            <ul class="unordered">
-              <li><a href="index.html">Home</a></li>
-            </ul>
-          </nav>
-        <h3>Go back and Click on Yes Now!</h3>
-        <video id="video" src="videos/angry_video.mp4" controls loop width="100%">
-            This video is not supported by your browser
-        </video>
+      <nav class="nav">
+        <ul class="unordered">
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+      <h3>Go back and Click on Yes Now!</h3>
+      <video id="video" src="videos/angry_video.mp4" controls loop width="100%">
+        This video is not supported by your browser
+      </video>
     </div>
-</body>
+  </body>
 </html>
