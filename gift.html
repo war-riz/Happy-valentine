@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      color: #444444;
+    }
+
+    body {
         background-color: blanchedalmond;
-        color: #444444;
     }
 
     div {
-        width: 100%;
-        padding: 100px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+      width: 100%;
+      padding: 100px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    h3{
-        font-size: large;
-        margin-bottom: 20px;
+    .nav {
+      background-color: #f97d9c;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .unordered {
+      display: flex;
+      list-style: none;
+      justify-content: start;
+    }
+
+    .unordered a {
+      text-decoration: none;
+      margin-left: 50px;
+      color: aliceblue;
+    }
+
+    h3 {
+      font-size: large;
+      margin-bottom: 20px;
     }
 
     #video {
-        margin-top: 20px;
-        border-radius: 15px;
+      margin-top: 20px;
+      border-radius: 15px;
     }
-
-</style>
-<body>
+  </style>
+  <body>
     <div>
-        <h3> Valentine's Gift</h3>
-        <q>In one respect I have succeeded as gloriously as anyone who’s ever lived: I’ve loved another with all my heart and soul; and to me, this has always been enough.</q> 
-        <cite>— Nicholas Sparks, “The Notebook"</cite>
-        <video id="video" src="videos/valentine gift.mp4" controls autoplay loop width="100%">
-            This video is not supported by your browser
-        </video>
+        <nav class="nav">
+            <ul class="unordered">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+          </nav>
+      <h3>Valentine's Gift</h3>
+      <q
+        >In one respect I have succeeded as gloriously as anyone who’s ever
+        lived: I’ve loved another with all my heart and soul; and to me, this
+        has always been enough.</q
+      >
+      <cite>— Nicholas Sparks, “The Notebook"</cite>
+      <video
+        id="video"
+        src="videos/valentine gift.mp4"
+        controls
+        autoplay
+        loop
+        width="100%"
+      >
+        This video is not supported by your browser
+      </video>
     </div>
-</body>
+  </body>
 </html>

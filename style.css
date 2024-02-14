@@ -13,6 +13,23 @@ body {
     margin-top: 70px;
 }
 
+.nav {
+    background-color: #f97d9c;
+    padding: 15px;
+}
+
+.unordered {
+    display: flex;
+    list-style: none;
+    justify-content: start;
+}
+
+.unordered a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
 #whole-body {
     margin: 0px auto;
     width: 80%;
@@ -41,6 +58,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
+    color: aliceblue;
 }
   
 

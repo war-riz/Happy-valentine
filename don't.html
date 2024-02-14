@@ -10,8 +10,29 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: blanchedalmond;
     color: #444444;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.nav {
+    background-color: #f97d9c;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.unordered {
+    display: flex;
+    list-style: none;
+    justify-content: start;
+}
+
+.unordered a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: aliceblue;
 }
 
 div {
@@ -34,6 +55,11 @@ h3{
 </style>
 <body>
     <div>
+        <nav class="nav">
+            <ul class="unordered">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+          </nav>
         <h3>Go back and Click on Yes Now!</h3>
         <video id="video" src="videos/angry_video.mp4" controls loop width="100%">
             This video is not supported by your browser
